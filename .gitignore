@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+docs/
+doc_examples/
+reports/
+huggingface_cache/
+.cache/
+*.log
+logs/
+*.cms
+
+# Data directories
+backups/
+workspace/
+projects/*/
+!projects/.gitkeep
+
+# Test files
+test_*.py
+test_*.json
+*_test.py
+
+# Documentation and proposals
+*.md
+!README.md
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment
+.env
+.env.local

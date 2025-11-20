@@ -1,0 +1,272 @@
+[
+  {
+    "rule_id": 1,
+    "section_path": "Introduction/",
+    "title": "Introduction",
+    "content": "The CMS Publications Committee (PubComm) is responsible for all articles submitted to a journal that are signed by the CMS Collaboration. The PubComm has a mandate, specified in the CMS Constitution, to ensure that all CMS papers are of high quality and adhere to high editorial standards. The Constitution also mandates that the PubComm provide and maintain these style guidelines. Drafts of publication documents should be carefully checked against these guidelines before being submitted to a collaboration wide review (CWR). To speed up the process, it is recommended that these guidelines be consulted before the first draft of a paper is started.",
+    "positive_examples": "Drafts should be carefully checked against these guidelines before CWR submission; Consult the style guide before drafting the Introduction section.; Run a self-check against the guidelines prior to CWR circulation.; Flag deviations from the guide during internal review and fix them early.; Use this document as a checklist before opening the CWR.",
+    "negative_examples": "Draft the paper first and look at the guide only after CWR starts.; Assume copy editors will fix style issues without checking the guide.; Skip internal consistency checks before sharing with the collaboration.",
+    "priority": "none"
+  },
+  {
+    "rule_id": 2,
+    "section_path": "Quick start/",
+    "title": "Six most important topics",
+    "content": "If you prefer not to go through this entire document all at once, here are links to what we consider the six most important topics: (1) British versus American English, (2) passive versus active voice, and present versus past tense, (3) display of numbers, (4) word usage and jargon, (5) figures and tables, and (6) references.",
+    "positive_examples": "Skim the six topics list and jump to 'Numbers' if you need unit formatting.; Use the quick links to review 'Figures and tables' before polishing plots.; Check 'References' to confirm DOI/arXiv conventions prior to finalizing BibTeX.; Decide on British vs American conventions up front and apply consistently.",
+    "negative_examples": "Ignore the quick start and hope inconsistencies are caught in the CWR.; Switch between British and American rules mid-draft.; Format numbers and units ad hoc without consulting the section.",
+    "priority": "none"
+  },
+  {
+    "rule_id": 3,
+    "section_path": "Guidelines for the general style of CMS publications/Self-plagiarism/",
+    "title": "Self-plagiarism",
+    "content": "Do not copy word-for-word text that has been used in an earlier CMS article that is published in a refereed journal, especially in the introductory section. This is considered bad practice, can lead to copyright issues, and many journals strongly disapprove of it. Paraphrase similar sentences and refer to the earlier publication instead of restating the same ideas. This rule does not apply to the CMS detector description, for which you are encouraged to use (with adaptation, if appropriate) the standard CMS detector description twiki page sentences.",
+    "positive_examples": "Paraphrase similar sentences and refer to the earlier publication; Use standard CMS detector description with adaptation; Rewrite background text in your own words and cite the earlier CMS paper.; Quote specialized phrasing only when unavoidable and attribute properly.; Reuse CMS detector boilerplate from the standard twiki with adaptations.; Summarize prior results and reference the original publication instead of copying.; Paraphrase similar sentences across papers and add cross-references.; Use quotation marks and citation for short verbatim phrases when required by context.",
+    "negative_examples": "Copy word-for-word text from earlier CMS articles; Copy full paragraphs from a prior CMS paper's Introduction.; Patchwork-copy sentences from multiple earlier CMS articles without citation.; Repost figure captions verbatim from a published CMS paper.; Replicate the previous abstract with only numbers changed.; Reuse text blocks from another CMS note without paraphrasing or attribution.; Assume reusing your own published text is always allowed.",
+    "priority": "recommended"
+  },
+  {
+    "rule_id": 4,
+    "section_path": "Guidelines for the general style of CMS publications/Language and spelling/British versus American English/",
+    "title": "British versus American English",
+    "content": "We let the authors decide whether to use British or American English conventions in writing their paper drafts. American conventions are widely used in PLB, JHEP, and EPJC, so there is no need to use British English for these journals. The APS journals (PRL, PRD, PRC) use American English only, and the copy editors will make the switch to American conventions for papers submitted to them with British conventions. Whichever you choose, the important thing is to follow those conventions consistently throughout the paper.",
+    "positive_examples": "Follow conventions consistently throughout the paper; Choose American English for PRL/PRD submissions and keep it consistent.; Stick to British spelling throughout if you opt for it in JHEP.; Document the chosen convention in the internal note to avoid later mix-ups.; Apply the same convention in captions and table notes.; Ensure spell-check is configured for the selected dialect.; Avoid switching dialects when revising sections authored by different people.",
+    "negative_examples": "Mixed British and American conventions in same paper; Mix 'colour' in Section 2 with 'center' in Section 3.; Adopt British spelling in the text but American in figure captions.; Submit to PRD in British English expecting copy editors to fix everything later.; Randomly alternate between 'behaviour' and 'behavior' across sections.; Use US spelling in main text but UK spelling in the abstract.; Change conventions mid-paper after a round of edits.",
+    "priority": "crucial"
+  },
+  {
+    "rule_id": 5,
+    "section_path": "Guidelines for the general style of CMS publications/Language and spelling/British versus American English/",
+    "title": "Spelling conventions",
+    "content": "British conventions lead to different spellings compared to American conventions for certain words commonly found in our papers such as \"colour\", \"flavour\", \"favour\", and \"centre\". There is a common misunderstanding about words containing \"ize\", like \"normalize\", \"maximize\", \"digitize\", \"realize\", \"recognize\", and \"minimize\", as well as the corresponding nouns such as \"normalization\", \"maximization\", \"digitization\", etc. Traditional British English aligns with American English in advocating \"ize\", although in most cases \"ise\" is considered to be an acceptable alternative in British English. However, scientific writing favours \"ize\". Therefore, we encourage using the \"ize\" spelling.",
+    "positive_examples": "normalize, maximize, digitize, realize, recognize, minimize; normalization, maximization, digitization; Prefer 'normalize', 'realize', and 'digitization' in scientific prose.; Use 'maximization' and 'minimization' for optimization statements.; Write 'flavour'/'colour' if using British English, but keep '-ize'.; Align code variable names with text (e.g., normalize → normalization).; Standardize to '-ization' in section titles and captions.; Verify that bibliography entries also respect the chosen spelling convention.",
+    "negative_examples": "normalise, maximise, digitise, realise, recognise, minimise (in scientific writing); Use 'normalise'/'realise' in technical contexts.; Alternate between 'digitise' and 'digitize' within the same paragraph.; Write 'recognise' in the abstract and 'recognize' elsewhere without reason.; Mix '-isation' and '-ization' suffixes in headings.; Change from '-ize' to '-ise' between revisions without global consistency.; Apply UK '-ise' spellings in PRL/PRD submissions.",
+    "priority": "crucial"
+  },
+  {
+    "rule_id": 6,
+    "section_path": "Guidelines for the general style of CMS publications/Grammar and punctuation/Passive versus active voice, and present versus past tense/",
+    "title": "Passive versus active voice",
+    "content": "While we strongly encourage a mixture of passive and active voice in the body of the paper, to keep the paper from becoming monotonous, the Abstract and the Summary (or Conclusions) should be written using passive voice.",
+    "positive_examples": "Mixed passive and active voice in body; passive voice in Abstract and Summary; Write the abstract in passive voice: 'Results are presented...'; Use a mix of active and passive in the body to avoid monotony.; Compose the Conclusions in passive or present-perfect as appropriate.; Active in Methods: 'We calibrate jets using ...'; passive in Abstract.; Alternate voice to enhance readability while respecting section rules.; Keep figure captions consistent with the surrounding voice choices.",
+    "negative_examples": "Active voice in Abstract and Summary; Write the Abstract entirely in active voice: 'We present...'; Use only passive voice throughout, making the paper stilted.; Switch to active voice in the Summary against guidance.; Mix voices randomly within the abstract.; Rely exclusively on active voice in Results and Conclusions without variation.; Use passive voice in places where agency is crucial for clarity in Methods.",
+    "priority": "crucial"
+  },
+  {
+    "rule_id": 7,
+    "section_path": "Guidelines for the general style of CMS publications/Grammar and punctuation/Passive versus active voice, and present versus past tense/",
+    "title": "Present versus past tense",
+    "content": "Use of the present tense is encouraged throughout the paper to keep it active and more engaging for the reader, with occasional use of the past tense where appropriate, such as in phrases like \"The data were collected with the CMS detector\" or \"The chamber was filled with gas\". Use the present tense in the abstract, e.g. \"Results are presented...\". In the Summary (or Conclusions) we should use the present perfect tense (\"Results have been presented\"), the past tense, (\"Events were selected\"), or the present tense (\"The measured cross section is\").",
+    "positive_examples": "Results are presented (abstract); The data were collected with the CMS detector; Results have been presented (summary); Abstract: 'Results are presented for ...'; Body: 'The data were collected with the CMS detector in 2018.'; Summary: 'Results have been presented for the full Run 2 data set.'; Abstract: 'Limits are set on ...'; Body: 'The chamber was filled with gas during operation.'; Summary: 'We have compared the measurement with theory.'",
+    "negative_examples": "Abstract: 'Results were presented...' (past tense in abstract).; Body: 'The data is collected...' (incorrect tense and agreement).; Summary: 'Results are presenting...' (progressive form misuse).; Mix present and past within the same sentence without reason.; Use future tense in the abstract: 'We will present...'; Describe established facts in past tense without context.",
+    "priority": "crucial"
+  },
+  {
+    "rule_id": 8,
+    "section_path": "Guidelines for the general style of CMS publications/Grammar and punctuation/Commas/",
+    "title": "Serial comma",
+    "content": "In a list of three or more items, use a comma before the conjunction \"and\" or \"or\". The serial comma (sometimes called the Oxford or Harvard comma) reduces the risk of ambiguity in a sentence.",
+    "positive_examples": "We are indebted to our technicians, Michel Della Negra, and Jim Virdee.; We thank the engineers, technicians, and shifters.; The selection requires isolation, identification, and impact-parameter criteria.; We considered statistical, systematic, and theoretical uncertainties.; The fit includes electron, muon, and tau channels.; We used Pythia, Herwig, and Sherpa.; The study covers triggering, reconstruction, and calibration.",
+    "negative_examples": "We are indebted to our technicians, Michel Della Negra and Jim Virdee.; We thank the engineers, technicians and shifters.; The fit includes electron, muon and tau channels.; We used Pythia, Herwig and Sherpa.; The selection requires isolation, identification and impact-parameter criteria.; We considered statistical, systematic and theoretical uncertainties.; The study covers triggering, reconstruction and calibration.",
+    "priority": "mandatory"
+  },
+  {
+    "rule_id": 9,
+    "section_path": "Guidelines for the general style of CMS publications/Grammar and punctuation/Commas/",
+    "title": "i.e., e.g., and et al.",
+    "content": "In American English, the rule is to use a comma both before and after \"i.e.\" and \"e.g.\". In British English, the rule is to have a comma before but not after. No comma should precede \"et al.\" in either convention. Also, do not write any of these in italics. Use the macros \\ie, \\eg, and \\etal.",
+    "positive_examples": "American: \\ie, and \\eg,; British: \\ie and \\eg; \\etal (no comma before); American: '\\ie, we correct for pileup'; '\\eg, electrons and muons'.; British: '\\ie we correct for pileup'; '\\eg electrons and muons'.; Use '\\etal' with no comma before it.; Avoid italics for '\\ie', '\\eg', and '\\etal'.; Define macros and use them consistently in text and captions.; Place commas correctly according to the chosen dialect.",
+    "negative_examples": "et al., (with comma before); i.e. or e.g. in italics; Use 'i.e.' in italics.; Write 'et al.,' with a comma before it.; American: '\\ie we correct for pileup' (missing comma after).; British: '\\eg, electrons and muons' (extra comma after).; Mix italicized '\\eg' in one place and roman elsewhere.; Use 'e.g' without periods.",
+    "priority": "mandatory"
+  },
+  {
+    "rule_id": 10,
+    "section_path": "Guidelines for the general style of CMS publications/Grammar and punctuation/Hyphens/",
+    "title": "Hyphenation philosophy",
+    "content": "Hyphens should be used to increase clarity, but there is no universally accepted set of hyphenation rules. The trend in scientific writing is to avoid a hyphen when it does not serve a useful purpose, e.g. \"pileup\", \"top quark decays\", \"b quark jet\". The recommendations given here are intended for guidance. As always, improved clarity is the overriding principle in case of doubt.",
+    "positive_examples": "pileup, top quark decays, b quark jet; Write 'pileup' without a hyphen.; Use 'top quark decays' instead of 'top-quark decays' when clear.; Prefer 'b quark jet' without a hyphen unless ambiguity arises.; Avoid gratuitous hyphens in standard compound physics terms.; Drop hyphens in well-established terms like 'workflow' and 'dataset'.; Retain hyphens only when needed for clarity or as attributive adjectives.",
+    "negative_examples": "pile-up, top-quark decays, b-quark jet (when hyphen doesn't improve clarity); Write 'pile-up' in general text.; Hyphenate 'top-quark decays' where no ambiguity exists.; Use 'b-quark jet' by default.; Insert hyphens inconsistently across similar phrases.; Over-hyphenate multiword terms that are clear without hyphens.; Hyphenate verbs or nouns where not required.",
+    "priority": "mandatory"
+  },
+  {
+    "rule_id": 11,
+    "section_path": "Guidelines for the general style of CMS publications/Grammar and punctuation/Hyphens/",
+    "title": "Use a hyphen",
+    "content": "The following should be hyphenated as attributive adjectives: A noun + present or past participle: \"gas-filled chambers\", \"English-speaking people\", \"U-shaped tube\"; Some combinations form passive verb forms, so they must be hyphenated to show they are performing as a unit, e.g. \"Doppler-shifted\", \"Fourier-transformed\"; An adjective + present or past participle: \"good-sized sample\", \"straight-sided cavern\", \"fine-grained texture\"; \"Well\", \"ill\", or \"little\" + past participle: \"well-known theorem\", \"ill-defined terms\", \"little-known result\"",
+    "positive_examples": "gas-filled chambers, Doppler-shifted, well-known theorem, next-to-leading-order calculation; gas-filled chambers; Doppler-shifted lines; Fourier-transformed spectrum; good-sized sample; fine-grained texture; well-known theorem; ill-defined terms; little-known result; next-to-leading-order calculation; high-η region (as an attributive compound)",
+    "negative_examples": "gas filled chambers, Doppler shifted, well known theorem; gas filled chambers; Doppler shifted lines; Fourier transformed spectrum; good sized sample; fine grained texture; well known theorem; ill defined terms; little known result; next to leading order calculation; high η region (when used attributively without hyphenation)",
+    "priority": "mandatory"
+  },
+  {
+    "rule_id": 12,
+    "section_path": "Guidelines for the general style of CMS publications/Grammar and punctuation/Common grammatical mistakes/",
+    "title": "Choice of indefinite article",
+    "content": "Use \"a\" before words that start with a consonant sound and \"an\" before words that start with a vowel sound, i.e., it is the sound that matters, not whether the word actually starts with a consonant or vowel. For example, we state \"she has a one-track mind\" because \"one\" starts with a \"w\" sound. Concerning indefinite articles before an acronym, it depends whether we read the acronym as a word or spells out the letters, and on the corresponding vowel or consonant sound.",
+    "positive_examples": "a one-track mind, an hour, a historic, a SUSY prediction, an SM prediction; a one-track mind; an hour of data taking; a historic milestone (h pronounced); a SUSY prediction (pronounced 'so͞o-zee'); an SM prediction (pronounced 'ess-em'); an L1 trigger upgrade (pronounced 'ell-one')",
+    "negative_examples": "an one-track mind, a hour, an historic, an SUSY prediction, a SM prediction; an one-track mind; a hour of data taking; an historic milestone (when h is pronounced); an SUSY prediction (when pronounced 'so͞o-zee'); a SM prediction (when pronounced 'ess-em'); a L1 trigger upgrade (when pronounced 'ell-one')",
+    "priority": "mandatory"
+  },
+  {
+    "rule_id": 13,
+    "section_path": "Guidelines for the general style of CMS publications/Grammar and punctuation/Common grammatical mistakes/",
+    "title": "Data plural usage",
+    "content": "The word \"data\" is plural. So the phrase \"the data are\" is correct, while \"the data is\" is incorrect. Think of the phrase \"data points\" when you write \"data\". Use the singular expression \"data sample\" or \"data set\" if one of them is better suited to your aim.",
+    "positive_examples": "the data are, data sample, data set; The data are consistent with the hypothesis.; These data were reprocessed with updated calibration.; A data set of 140 fb^{-1} is analyzed.; The data sample includes 2016–2018 collisions.",
+    "negative_examples": "the data is; The data is consistent with the hypothesis.; This data was reprocessed... (ambiguous singular).; A data are of 140 fb^{-1} is analyzed.; Treat 'data' as singular throughout the paper.",
+    "priority": "normal"
+  },
+  {
+    "rule_id": 14,
+    "section_path": "Guidelines for the general style of CMS publications/Numbers/",
+    "title": "Number usage rules",
+    "content": "Words should be used to indicate integer numbers up to 10, e.g., \"there are four layers of chambers\", except numerals should be used in the following circumstances: When implying an arithmetical manipulation: \"a factor of 7\", \"4 orders of magnitude\", \"5 times the height\", \"ratio of 3:5\", \"2 standard deviations\"; With units of measure: \"5 V\", \"10 s\"; With divisions of the paper (part, paragraph, Section): \"Section 3\", or for numbered items (rule, model, equation): \"model 1\", \"case 3\"; When numbers are used as nouns: \"values of 0 and 1\".",
+    "positive_examples": "four layers of chambers, a factor of 7, 5 V, Section 3, values of 0 and 1; There are four layers of chambers.; The yield increases by a factor of 7.; We observe 2 standard deviations.; Voltages of 5 V and 12 V are applied.; Refer to Section 3 for details.; The classifier outputs values of 0 and 1.",
+    "negative_examples": "4 layers of chambers (without special circumstances), five V, five s; There are 4 layers of chambers. (no special circumstance); We applied five V to the circuit.; The runtime is five s.; Model one fits best. (should be 'model 1'); ratio of three:five; Use words with units (e.g., 'five GeV').",
+    "priority": "crucial"
+  },
+  {
+    "rule_id": 15,
+    "section_path": "Guidelines for the general style of CMS publications/Numbers/",
+    "title": "Scientific notation",
+    "content": "If you write a number in scientific notation, use the \\times symbol in LaTeX and not the \\cdot symbol. Example: $8 \\times 10^{-2}$. Do not use either the \\times or the \\cdot symbols in formulas where multiplication is the default operation, e.g. write \\mathcal{B} \\sigma\" for the product of cross section and branching fraction, and not \\mathcal{B} \\times \\sigma\" or \\mathcal{B} \\cdot \\sigma\".",
+    "positive_examples": "$8 \\times 10^{-2}$, \\mathcal{B} \\sigma; $8 \\times 10^{-2}$; $3.0 \\times 10^{4}$; Write $\\mathcal{B} \\, \\sigma$ without an explicit multiplication symbol.; Keep implicit multiplication in dense math ($ab$, $\\sigma\\mathcal{L}$).; Use \\times for powers-of-ten notation only.; Avoid mixing \\cdot and \\times in the same context.",
+    "negative_examples": "$8 \\cdot 10^{-2}$, \\mathcal{B} \\times \\sigma, \\mathcal{B} \\cdot \\sigma; $8 \\cdot 10^{-2}$; $3.0 \\cdot 10^{4}$; $\\mathcal{B} \\times \\sigma$ in default multiplication context; $\\mathcal{B} \\cdot \\sigma$ where juxtaposition suffices; Use \\cdot for scientific notation exponents; Insert explicit multiplication in simple products unnecessarily",
+    "priority": "mandatory"
+  },
+  {
+    "rule_id": 16,
+    "section_path": "Guidelines for the general style of CMS publications/Numbers/Number of significant digits for measurements and uncertainties/",
+    "title": "Significant digits for uncertainties",
+    "content": "In CMS papers, the standard is to use at most two significant digits for all quoted uncertainties, unless only one significant digit is appropriate. The precision quoted for an uncertainty should match the precision quoted for the central value associated with it and the precision of any other associated quoted uncertainties.",
+    "positive_examples": "27.4 ± 0.1 (stat) ± 2.1 (syst); 27.40 ± 0.14 (stat) ± 0.85 (syst); 27.4 ± 1.3 (stat) ± 0.2 (syst); 27.4 \\pm 0.1 (stat) \\pm 2.1 (syst); 27.40 \\pm 0.14 (stat) \\pm 0.85 (syst); 27.4 \\pm 1.3 (stat) \\pm 0.2 (syst); 5.1 \\pm 0.2 (exp) \\pm 0.1 (theo); 0.98 \\pm 0.03; 123 \\pm 12",
+    "negative_examples": "27.4 ± 0.123 (stat) ± 2.1567 (syst); 27.4 \\pm 0.123 (stat) \\pm 2.1567 (syst); 5.1234 \\pm 0.0007; 0.98321 \\pm 0.00012; 123.0 \\pm 11.987; Quote three or more significant digits for uncertainties by default; Mismatched precision between central value and uncertainties",
+    "priority": "mandatory"
+  },
+  {
+    "rule_id": 17,
+    "section_path": "Guidelines for the general style of CMS publications/Acronyms/",
+    "title": "Acronym definition rules",
+    "content": "After publishing hundreds of papers, we feel that it is no longer necessary to define either the CMS or the LHC acronyms. However, the first time the LHC is mentioned in the text of a paper, it should be referred to as \"the CERN LHC\" or \"the LHC at CERN\". We do not capitalize the first letters of words in a phrase that is about to be made into an acronym, e.g. \"standard model (SM)\", \"quantum chromodynamics (QCD)\", unless they are proper nouns like \"Monte Carlo (MC) simulation program\".",
+    "positive_examples": "the CERN LHC, standard model (SM), quantum chromodynamics (QCD), Monte Carlo (MC) simulation program; Do not define CMS or LHC; write 'the LHC at CERN' on first mention.; Write 'standard model (SM)' when first introduced.; Use 'quantum chromodynamics (QCD)' on first introduction.; Capitalize proper nouns only, e.g., 'Monte Carlo (MC) simulation program'.; Avoid initial capitals before acronym formation.; Define acronyms in both abstract and text as needed.",
+    "negative_examples": "Standard Model (SM), Quantum Chromodynamics (QCD); Write 'Standard Model (SM)' in running text before acronym formation.; Define CMS as an acronym.; Introduce 'QCD' without first writing 'quantum chromodynamics'.; Capitalize words solely because they will form an acronym.; Skip 'the LHC at CERN' on first mention of LHC in the paper.; Assume abstract definitions carry over to the main text without redefining.",
+    "priority": "recommended"
+  },
+  {
+    "rule_id": 18,
+    "section_path": "Guidelines for the general style of CMS publications/Acronyms/",
+    "title": "Acronym usage frequency",
+    "content": "An acronym (excluding MC names) should not be defined unless the associated phrase is used at least three times in the text. An acronym should be separately defined in the abstract and in the main body of the text, and should be defined in the abstract only if it will be used at least two more times in the abstract. Same thing for the summary: all used acronyms should be redefined, and introduced only if they will be used at least twice more.",
+    "positive_examples": "Define acronym if used ≥3 times in text, ≥2 more times in abstract after definition; Define an acronym only if it appears at least three times in the text.; Define acronyms separately in the abstract and again in the main text.; Introduce an acronym in the abstract only if used two or more times there.; Redefine acronyms in the Summary if they are used there.",
+    "negative_examples": "Defining acronym used only once or twice; Define an acronym that appears only once.; Rely on a definition in the abstract for use in the main text.; Introduce an acronym in the Summary that is used just once.; Use many seldom-used acronyms to save space.",
+    "priority": "normal"
+  },
+  {
+    "rule_id": 19,
+    "section_path": "Guidelines for the general style of CMS publications/Symbols, MC parameters, units, and particle names/",
+    "title": "Subscripts and superscripts",
+    "content": "Subscripts and superscripts that are abbreviations of English words, such as \"T\" for \"transverse\", must be written in roman font (in math mode, use \"\\text\" and not \"\\mathrm\"). Math indices (such as the i, j, k of matrix elements) must be written in italic (math mode). Use the standard CMS macros, when available. Make subscripts and superscripts succinct.",
+    "positive_examples": "\\text{T} for transverse, $i, j, k$ for matrix indices; Write $p_{\\text{T}}$ with a roman T via \\text.; Use italic $i, j, k$ for indices in math mode.; Prefer succinct indices: $E_{\\text{beam}}$, not $E_{\\text{beam\\ energy}}$.; Adopt CMS macros where available for consistency.; Keep English-abbreviation subscripts in roman font.; Use math italics for purely mathematical indices.",
+    "negative_examples": "\\mathrm{T} for transverse, \\text{i} for matrix indices; Write $p_{\\mathrm{T}}$ for transverse momentum.; Use $\\text{i}$ as a matrix index.; Overly verbose subscripts like $E_{\\text{beam energy}}$.; Mix \\text and \\mathrm inconsistently for English abbreviations.; Italicize English words in subscripts.; Romanize mathematical indices ($\\text{i}$)",
+    "priority": "mandatory"
+  },
+  {
+    "rule_id": 20,
+    "section_path": "Guidelines for the general style of CMS publications/Symbols, MC parameters, units, and particle names/",
+    "title": "Particle names",
+    "content": "Particle names should always be written using the particle name macros (pennames), regardless of whether they appear in plain text or in expressions (\"\\PW boson production\", not \"W boson production\"; \"$\\PH \\to \\PGm\\PGm$\", not \"$\\mathrm{H} \\to \\mu\\mu$\", etc.) A single penname does not need to be in math mode, but if you have two or more pennames together then they should be in math mode to avoid extra spaces, so \"$\\Pp\\Pp$ collisions\", not \"\\Pp\\Pp collisions\".",
+    "positive_examples": "\\PW boson production, $\\PH \\to \\PGm\\PGm$, $\\Pp\\Pp$ collisions; Use '\\PW boson production' in text.; Write '$\\PH \\to \\PGm\\PGm$' in equations.; Write '$\\Pp\\Pp$ collisions' (both pennames in math mode).; Keep a single penname in text without math mode if alone.; Adopt pennames consistently in captions and labels.; Avoid spaces between multiple pennames in math mode to prevent gaps.",
+    "negative_examples": "W boson production, $\\mathrm{H} \\to \\mu\\mu$, \\Pp\\Pp collisions; Write 'W boson production' without pennames.; Use '$\\mathrm{H} \\to \\mu\\mu$' instead of pennames.; Write '\\Pp\\Pp collisions' outside math mode (leading to spacing issues).; Mix plain letters and pennames for the same particle in one sentence.; Use inconsistent notation for particle names across sections.; Introduce pennames only in figures but not in text.",
+    "priority": "mandatory"
+  },
+  {
+    "rule_id": 21,
+    "section_path": "Guidelines for the general style of CMS publications/Symbols, MC parameters, units, and particle names/",
+    "title": "Missing transverse momentum definition",
+    "content": "Missing transverse momentum should be defined. An example sentence for how to do this is \"The missing transverse momentum vector \\ptvecmiss is defined as the projection onto the plane perpendicular to the beam axis of the negative vector sum of the momenta of all reconstructed particle-flow objects in an event. Its magnitude is referred to as \\ptmiss.\" Use the symbol \\ptmiss to represent the magnitude of the missing transverse momentum vector \\ptvecmiss, for consistency of notation.",
+    "positive_examples": "The missing transverse momentum vector \\ptvecmiss is defined as...; \\ptmiss for magnitude; Define \\ptvecmiss explicitly and state that \\ptmiss denotes its magnitude.; Provide the projection and negative vector sum wording on first use.; Use \\ptmiss thereafter consistently for the magnitude.; Introduce transverse momentum symbol $p_{\\text{T}}$ before \\ptmiss use.",
+    "negative_examples": "Using 'missing transverse energy', slashed symbols for missing momentum; Use 'missing transverse energy' in place of momentum.; Employ slashed symbols for missing momentum.; Use \\ptmiss before defining it.; Switch between \\ptmiss and $E_{\\text{T}}^{\\text{miss}}$ inconsistently.",
+    "priority": "normal"
+  },
+  {
+    "rule_id": 22,
+    "section_path": "Guidelines for the general style of CMS publications/Word usage and jargon/",
+    "title": "Avoid physics jargon",
+    "content": "Avoid using physics slang such as \"cuts\", \"cut tuning\", etc. Use \"require\" instead of \"cut on\", \"selection criteria\" instead of \"cuts\", etc. \"Fake\" is an example of physics slang. Use \"hadron misidentified as a lepton\" [or similar] instead of \"fake lepton\", and \"misidentification rate\" instead of \"fake rate\". This is an example of physics jargon. If you want to use the word \"pileup\", you should define it the first time it appears in the text.",
+    "positive_examples": "require, selection criteria, hadron misidentified as a lepton, misidentification rate; Use 'selection criteria' instead of 'cuts'.; Say 'require $p_{\\text{T}} > 25\\,\\GeV$' instead of 'cut on $p_{\\text{T}}$'.; Write 'hadron misidentified as a lepton' instead of 'fake lepton'.; Use 'misidentification rate' instead of 'fake rate'.; Define 'pileup' on first use.; Prefer formal terms in captions and axis labels as well.",
+    "negative_examples": "cuts, cut tuning, cut on, fake lepton, fake rate, undefined pileup; Refer to 'cuts' and 'cut tuning' throughout.; Write 'cut on isolation' rather than 'require isolation'.; Use 'fake lepton' in the main text.; Quote a 'fake rate' without clarification.; Introduce 'pileup' without definition.; Employ slang in figure captions.",
+    "priority": "crucial"
+  },
+  {
+    "rule_id": 23,
+    "section_path": "Guidelines for the general style of CMS publications/Word usage and jargon/",
+    "title": "Particle names as adjectives",
+    "content": "Avoid using particle names as nouns, i.e., write \"W boson decay\" (with pennames, \"{\\PW} boson decay\") and not \"W decay\", \"J/\\psi meson production\" and not \"J/\\psi production\". However, this rule can be relaxed if the text becomes tedious. Do not use terms like \"antitop quark\". Use \"top antiquark\" instead. Similarly, use \"top quark and antiquark\" when referring to both types.",
+    "positive_examples": "W boson decay, J/ψ meson production, top antiquark, top quark and antiquark; Write '{\\PW} boson decay' rather than 'W decay'.; Use 'J/\\psi meson production' instead of 'J/\\psi production'.; Say 'top antiquark' rather than 'antitop quark'.; Use 'top quark and antiquark' when referring to both.; Relax the rule only to avoid tedium after first clear usage.; Stay consistent across captions and text.",
+    "negative_examples": "W decay, J/ψ production, antitop quark; Write 'W decay' as a noun phrase.; Use 'J/\\psi production' without 'meson'.; Say 'antitop quark'.; Mix 'W decay' and '{\\PW} boson decay' inconsistently.; Drop 'boson' or 'meson' when clarity is needed.; Oscillate between noun and adjective use without rationale.",
+    "priority": "crucial"
+  },
+  {
+    "rule_id": 24,
+    "section_path": "Guidelines for the general style of CMS publications/Contractions/",
+    "title": "Contractions",
+    "content": "Do not use contractions, e.g. we'll, we'd, don't, let's, can't, won't, it's., shan't.",
+    "positive_examples": "we will, we would, let us, do not, cannot, will not, it is, shall not; Write 'do not', 'cannot', and 'it is'.; Use 'we will' and 'we would' in formal prose.; Prefer 'let us' over 'let's' in captions.; Spell out negatives: 'will not', 'shall not'.; Expand contractions in quotations if style permits or mark as quotes.; Check captions and figure notes for stray contractions.",
+    "negative_examples": "we'll, we'd, let's, don't, can't, won't, it's, shan't; Use 'don't' and 'can't' in the main text.; Write 'it's' in the abstract.; Use 'we'll' and 'we'd' in conclusions.; Keep contractions in axis labels or captions.; Mix contracted and full forms across sections.; Rely on colloquial contractions in formal prose.",
+    "priority": "mandatory"
+  },
+  {
+    "rule_id": 25,
+    "section_path": "Guidelines for the format of CMS publications/Title/",
+    "title": "Title guidelines",
+    "content": "The title should be clear and concise. Where possible, use words rather than symbols unless this would compromise clarity. Do not use undefined symbols like \\ptmiss but rather write out \"missing transverse momentum\". The first word of the title is always capitalized, but the following words should be in lower case unless they are capitalized in normal use. It is our convention to not mention the CMS experiment in the title of physics papers, since the author is listed as \"The CMS Collaboration\" directly below the title.",
+    "positive_examples": "missing transverse momentum (instead of \\ptmiss), proper capitalization; Spell out 'missing transverse momentum' in the title.; Capitalize only the first word and proper nouns in the title.; Avoid undefined symbols in the title.; Do not include 'CMS' in physics paper titles.; Prefer words to symbols unless clarity suffers.; Keep the title concise and descriptive.",
+    "negative_examples": "\\ptmiss in title, CMS experiment in physics paper titles, All Title Words Capitalized; Write '$\\ptmiss$' in the title.; Capitalize All Principal Words In The Title.; Mention 'CMS' in the physics paper title.; Use unexplained abbreviations in the title.; Crowd the title with symbols unnecessarily.; Use a vague or overly long title.",
+    "priority": "recommended"
+  },
+  {
+    "rule_id": 26,
+    "section_path": "Guidelines for the format of CMS publications/Abstract/",
+    "title": "Abstract requirements",
+    "content": "The abstracts of our papers should be a self-contained summary of the paper, ending with the main results of the analysis, expressed through clear sentences and, whenever possible, quantitative information. The following information should be mentioned: experiment name, accelerator name, type of beams, center-of-mass energy, and integrated luminosity. All symbols need to be introduced, including transverse momentum. The abstracts of CMS papers cannot exceed 200 words, which is a limit imposed by many of the journals we publish in. In the case or PRL, the limit is 600 characters, which means around 100 words.",
+    "positive_examples": "Self-contained summary with main results, experiment name, accelerator name, beam type, center-of-mass energy, integrated luminosity, ≤200 words; Keep the abstract \\u2264 200 words (\\u2264 600 characters for PRL).; Include experiment, accelerator, beam type, \\sqrt{s}, and luminosity.; End with the main quantitative results.; Introduce all symbols, including transverse momentum.; Ensure the abstract is self-contained.; Define acronyms used at least twice in the abstract.",
+    "negative_examples": "Abstract >200 words, missing required information, undefined symbols; Exceed 200 words in a standard CMS abstract.; Omit the integrated luminosity or \\sqrt{s}.; Use undefined symbols like \\ptmiss.; Exclude the experiment or accelerator name.; End without stating the key measurement.; Introduce acronyms used only once.",
+    "priority": "mandatory"
+  },
+  {
+    "rule_id": 27,
+    "section_path": "Guidelines for the format of CMS publications/Figures and tables/",
+    "title": "Figure and table placement",
+    "content": "Figures and tables should be placed in the text as close as possible to the page on which they are first mentioned. But they should not appear before that page. All figures and tables should have captions. Figure captions should appear below the figure and table captions above the table. Use the \\topcaption command for table captions.",
+    "positive_examples": "Figure captions below figures, table captions above tables using \\topcaption, placed near first mention but not before; Place figures near their first mention, not before.; Put figure captions below figures; table captions above tables.; Use \\topcaption for table captions.; Ensure every figure and table has a caption.; Avoid floating a figure to a page preceding its textual reference.; Keep related figures grouped near the discussion.",
+    "negative_examples": "Figure captions above figures, table captions below tables, figures appearing before first mention; Insert a figure before it is mentioned in text.; Place table captions below the table.; Put figure captions above figures.; Omit captions for schematic figures.; Scatter figures far from their discussion.; Ignore \\topcaption for tables.",
+    "priority": "crucial"
+  },
+  {
+    "rule_id": 28,
+    "section_path": "Guidelines for the format of CMS publications/Figures and tables/",
+    "title": "Plot labeling requirements",
+    "content": "Be sure to label both axes of a plot and include the appropriate units for both. For one-dimensional plots showing the number of events per bin using a fixed bin width, give the binning in the y-axis label, e.g. \"Events / 50 MeV\" or \"Events / 0.1 units\" (if the x axis is dimensionless). Horizontal bars on data points in one-dimensional plots should only be used to indicate the binning if the bin width varies across the plot.",
+    "positive_examples": "Events / 50 MeV, Events / 0.1 units, horizontal bars only for variable bin widths; Label both axes and include units on each.; Use 'Events / 50 MeV' for fixed bin width histograms.; Use 'Events / 0.1 units' for dimensionless x axes.; Add horizontal bars only when bin widths vary.; State binning in the y-axis label for counts per bin.; Ensure font sizes are legible and consistent.",
+    "negative_examples": "Unlabeled axes, missing units, horizontal bars on fixed-width bins; Leave one or both axes unlabeled.; Omit units from axis labels.; Add horizontal bars when all bins have equal width.; Use ambiguous labels like 'Counts' without binning info.; Mix unit conventions across related plots.; Hide units in captions rather than on axes.",
+    "priority": "crucial"
+  },
+  {
+    "rule_id": 29,
+    "section_path": "Guidelines for the format of CMS publications/References/",
+    "title": "Reference requirements",
+    "content": "References should be numbered consecutively in the order in which they are cited in the text. Every journal citation should include its DOI. As a courtesy to readers who might not have access to a particular journal, include the arXiv number of all references that have them in the BibTeX listing. All URLs for CMS notes, ANs, etc, should refer to those on the CDS server, not on the CMS server.",
+    "positive_examples": "Consecutive numbering, DOI included, arXiv numbers when available, CDS URLs for CMS documents; Number references in order of first citation.; Include DOIs for all journal citations.; Add arXiv identifiers when available.; Use CDS URLs for CMS notes and internal documents.; Keep bibliography consistent with journal style.; Verify each citation resolves to a public source where possible.",
+    "negative_examples": "Non-consecutive numbering, missing DOIs, missing arXiv numbers, CMS server URLs instead of CDS; Cite references out of order.; Omit DOIs from journal entries.; Neglect arXiv numbers when they exist.; Link to CMS server URLs instead of CDS.; Mix bibstyles for different entries.; Use non-resolving or private links for key references.",
+    "priority": "crucial"
+  },
+  {
+    "rule_id": 30,
+    "section_path": "Guidelines for the format of CMS publications/References/",
+    "title": "Author listing in references",
+    "content": "IF THERE ARE 15 OR FEWER AUTHORS FOR A REFERENCE, INCLUDE ALL OF THEIR NAMES IN THE BIBTEX FILE. If there are more than 15 authors, just give the first author's name plus \"and others\" in the BibTeX file. The individual journal's bibstyle file will then truncate the list at the appropriate number of authors for that journal.",
+    "positive_examples": "All author names for ≤15 authors, first author + 'and others' for >15 authors; List all authors when a paper has 15 or fewer authors.; Use 'First Author and others' in BibTeX when there are more than 15 authors.; Rely on the journal's bibstyle to truncate appropriately.; Check long author lists for correct initial/diacritic handling.; Ensure consistency across all entries regarding author limits.; Document edge cases in comments if needed.",
+    "negative_examples": "Truncating author list when ≤15 authors, listing all authors when >15; Truncate to 'and others' when there are 15 or fewer authors.; List all 50 authors in BibTeX for a large collaboration paper.; Hand-truncate names contrary to the journal's bibstyle.; Mix full lists and truncated lists inconsistently.; Exceed author limits in one entry but not others.; Ignore special characters causing rendering issues in author names.",
+    "priority": "crucial"
+  }
+]

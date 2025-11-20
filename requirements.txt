@@ -1,0 +1,16 @@
+# Core dependencies
+numpy>=1.24.0
+sentence-transformers>=2.2.0
+
+# LLM providers
+anthropic>=0.25.0
+openai>=1.10.0
+google-generativeai>=0.5.0
+transformers>=4.35.0
+torch>=2.0.0
+
+# PDF generation
+reportlab>=4.0.0
+
+# Standard libraries (included with Python)
+# json, os, sys, logging, pickle, pathlib, datetime, typing, abc, warnings, re, argparse, traceback
