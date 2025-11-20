@@ -98,21 +98,21 @@ Access settings through the GUI via **Edit > Global Settings** or **Edit > Proje
 
 - **Global Settings**: Configure default settings for all projects
   - LLM and RAG model selection
-  - API keys
+  - API keys (entered values live in memory only and are not written to disk; use environment variables to persist them across restarts)
   - Processing parameters
   - Output options
 
 - **Project Settings**: Override global settings for specific projects
   - Model selection per project
   - Custom processing parameters
-  - API keys are inherited from global settings for security
+  - API keys are not stored with project files; they come from the active session or environment variables
 
 ### Manual Configuration
 
 Alternatively, edit [config.py](config.py) directly to set defaults:
 - LLM provider and model selection
 - RAG settings (embedding model, top-k rules)
-- API keys (stored in config.py or environment variables)
+- API keys (provided via environment variables; they are not written to configuration or project files)
 - Processing parameters (temperature, max tokens)
 
 ## Architecture

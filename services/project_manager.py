@@ -415,8 +415,8 @@ class ProjectManager:
             # Mark as global
             settings.is_project_specific = False
 
-            # Save with API keys
-            settings.save_to_file(global_settings_file, include_api_keys=True)
+            # Save without API keys so credentials stay in memory only
+            settings.save_to_file(global_settings_file, include_api_keys=False)
 
             logger.info("Saved global settings")
             return True
@@ -469,7 +469,7 @@ class ProjectManager:
             cms_data = {
                 'version': '1.1',  # Updated for rulebook support
                 'project': project.to_dict(),
-                'settings': settings.to_dict() if settings else None
+                'settings': settings.to_dict(include_api_keys=False) if settings else None
             }
 
             # Ensure file has .cms extension

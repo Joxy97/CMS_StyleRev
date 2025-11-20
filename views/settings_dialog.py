@@ -723,7 +723,7 @@ Model: Select the specific model to use
 
 API Key: Required for cloud providers
   - Leave blank to use environment variables
-  - Keys are stored securely with the project
+  - Keys are not written to project files or default settings; enter them each session or rely on env vars for persistence
 
 Device (Local only): Select compute device
   - auto: Automatically detect best device
