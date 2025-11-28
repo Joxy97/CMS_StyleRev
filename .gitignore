@@ -29,7 +29,7 @@ logs/
 # Data directories
 backups/
 workspace/
-projects/*/
+projects/
 !projects/.gitkeep
 
 # Test files
